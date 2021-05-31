@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="common.cpp">
+      <Filter>prerequisites</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>prerequisites\render</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\config.cpp">
+      <Filter>menu\config manager</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\button.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\colourpicker.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\dropdown.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\function.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\group.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\kbind.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\listbox.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\multi_dropdown.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\slider.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\tab.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\text.cpp">
+      <Filter>menu\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="math\vmatrix.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\vector4d.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\checksum_crc.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\checksum_md5.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="netvar.cpp" />
+    <ClCompile Include="hooks.cpp" />
+    <ClCompile Include="math\math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\ragebot.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\awall.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\lagcomp.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\resolver.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\chams.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\glow.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\movement.cpp">
+      <Filter>features</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menu">
+      <UniqueIdentifier>{95493c80-4bc4-4cb5-b3a8-6a0a11514f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prerequisites">
+      <UniqueIdentifier>{f80f4d6f-2d92-4f5d-8294-a87866bf4ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prerequisites\vmt">
+      <UniqueIdentifier>{2bfddee3-e9d2-45fe-b35a-cc489e1f3ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prerequisites\render">
+      <UniqueIdentifier>{f1a283ee-6efa-47f4-b9e5-4ed1c183bfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\config manager">
+      <UniqueIdentifier>{e00e342e-e8cf-4739-9597-67d6164c4c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="software development kit">
+      <UniqueIdentifier>{f484e661-8f29-4ee3-ab63-078a76963d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\controls">
+      <UniqueIdentifier>{c6407730-7471-4a48-b643-9322995f5d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{d3653308-23f9-4885-bd04-c664afd88540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{22a59c5c-709d-4547-99cb-a42d7217f224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{f736e75f-2d50-4c4f-aee9-57de368bbcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{f8fb1ffb-a1a9-4656-963d-cfbf22ad4c9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>prerequisites\vmt</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>prerequisites\render</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="menu\menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\config.h">
+      <Filter>menu\config manager</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\button.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\colourpicker.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\dropdown.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\function.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\group.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\kbind.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\listbox.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\multi_dropdown.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\slider.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\tab.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\controls\text.h">
+      <Filter>menu\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="math\vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vmatrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\qangle.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vector4d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\cclientstate.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\cinput.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iappsystem.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ibaseclientdll.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icliententity.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icliententitylist.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iclientmode.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iclientnetworkable.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iclientrenderable.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iclientthinkable.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iclientunknown.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icollideable.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iconvar.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\icvar.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ienginesound.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ienginetrace.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\igameeventmanager.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imaterialsystem.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imdlcache.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imovehelper.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ipanel.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iphysics.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iprediction.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\irenderview.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\isurface.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ivdebugoverlay.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ivengineclient.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\iviewrender.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ivmodelinfoclient.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ivmodelrender.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\cusercmd.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\checksum_crc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\checksum_md5.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\globals.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ihandleentity.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\studio.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\color.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\clientclass.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\recv.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\enums.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\utlvector.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\platform.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\utlmemory.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="c_baseentity.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="netvar.h" />
+    <ClInclude Include="sdk.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="features\features.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="gamefunc.h">
+      <Filter>prerequisites</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\basehandle.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="features\ragebot.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\awall.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\lagcomp.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\resolver.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\cincomingsequences.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="security\xorstr.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\glowobjmng.hpp">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="features\glow.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\movement.h">
+      <Filter>features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\ehandle.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\animstate.h">
+      <Filter>software development kit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
